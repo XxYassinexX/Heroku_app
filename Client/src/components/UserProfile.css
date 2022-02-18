@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+.bod {
+  font-family: Roboto, sans-serif;
+}
+
+.card {
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  max-width: 80%;
+  height: 450px;
+
+  border-radius: 25px;
+}
+
+.card h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 1rem;
+}
+.card .title {
+  padding: 1rem;
+  text-align: left;
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 40px;
+  font-weight: 600;
+}
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.card img {
+  border-radius: 120px;
+  width: 140px;
+  height: 140px;
+  /* margin: 0 auto; */
+}
+
+.img-avatar {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid white;
+  background-image: linear-gradient(-60deg, #ffffff 0%, #ffffff 100%);
+  top: 40px;
+  left: 200px;
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+  padding: 2.5em 1.5em 1.5em 1.5em;
+}
+
+path {
+  fill: white;
+}
+
+.img-portada {
+  width: 80%;
+  height: 50%;
+}
+
+.portada {
+  margin-top: 10px;
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  background-image: url("https://st2.depositphotos.com/1351697/9455/v/950/depositphotos_94552174-stock-illustration-transportation-label-collection-on-dark.jpg");
+  background-position: center;
+
+  background-size: cover;
+}
+
+.Submitbutton1 {
+  margin-top: 15px;
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 35px;
+  border-radius: 50px;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+  box-shadow: 0px 4px 20px 0px #64491fa6;
+  background-image: linear-gradient(135deg, #3a291e 10%, #3a291e 100%);
+  cursor: pointer;
+  transition: 1s;
+}
+.Submitbutton1:hover {
+  color: #fafafa;
+  transform: rotate(360deg);
+  background-image: linear-gradient(135deg, #690202 10%, #a13636 100%);
+
+}

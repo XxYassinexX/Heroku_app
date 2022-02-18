@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+.Postcontainer {
+	font-family: 'Roboto', sans-serif;
+	background-color: whitesmoke;
+	width: 60%;
+	color: white;
+	border-radius: 1em;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-position: center;
+	box-shadow: 0 0 5em -1em black;
+	transition: all, var(--transition-time);
+	position: relative;
+	overflow: hidden;
+	border: 10px solid #ccc;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	
+}
+
+
+.Submitbutton {
+	font-family: 'Roboto', sans-serif;
+    position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #7a7a7a;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 200px;
+	border-radius: 20px;
+	border: 1px solid #7a7a7a;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+
+
+
+.Commentfield {
+    
+	font-family: 'Roboto', sans-serif;
+		background: rgb(173, 173, 173);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #dbdbdb;
+	color:#000000;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+
+.Field {
+	font-family: 'Roboto', sans-serif;	
+	background: rgb(173, 173, 173);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0 auto;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #dbdbdb;
+	color:#000000;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 10px;
+}
